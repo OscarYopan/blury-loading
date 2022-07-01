@@ -22,10 +22,11 @@ function cont(){
 
   if(load == 100){
     sleep(2500);
-    location.reload()
+    location.reload() //reload the page
   }  
 }
 
+//Function to accont 2.5 seconds.
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;

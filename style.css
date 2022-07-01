@@ -1,16 +1,12 @@
-/*Reset*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/*Default*/
 html{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
 }
-
 body{
   display: flex;
   align-items: center;
@@ -18,9 +14,8 @@ body{
   height: 100vh;
   overflow: hidden;
 }
-
 .bg {
-  background: url('https://images.unsplash.com/photo-1495316364083-b5916626072e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;
+  background: url('https://source.unsplash.com/random') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -29,7 +24,6 @@ body{
   z-index: -1;
   filter: blur(0rem);
 }
-
 .loading-text {
   font-size: 5rem;
   color: white;

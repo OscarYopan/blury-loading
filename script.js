@@ -22,7 +22,7 @@ function cont(){
 
   if(load == 100){
     sleep(2500);
-    window.location.reload(CSSStyleSheet) //reload the page
+    window.location.reload(Cache) //reload the page
   }  
 }
 
